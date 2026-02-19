@@ -1,0 +1,7 @@
+/home/ji/MOBJ/tme45/build/CMakeFiles/tme810.dir
+/home/ji/MOBJ/tme45/build/CMakeFiles/edit_cache.dir
+/home/ji/MOBJ/tme45/build/CMakeFiles/rebuild_cache.dir
+/home/ji/MOBJ/tme45/build/CMakeFiles/list_install_components.dir
+/home/ji/MOBJ/tme45/build/CMakeFiles/install.dir
+/home/ji/MOBJ/tme45/build/CMakeFiles/install/local.dir
+/home/ji/MOBJ/tme45/build/CMakeFiles/install/strip.dir

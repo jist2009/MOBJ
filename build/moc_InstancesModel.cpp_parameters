@@ -1,0 +1,5 @@
+-I/home/ji/MOBJ/tme45/src
+-I/usr/include/libxml2
+-o
+/home/ji/MOBJ/tme45/build/moc_InstancesModel.cpp
+/home/ji/MOBJ/tme45/src/InstancesModel.h

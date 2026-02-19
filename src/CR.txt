@@ -1,0 +1,59 @@
+différence entre public slots et public :
+
+Public slots:
+- Mécanisme de communication: Un slot est concu pour être connectée à un signal. (design pattern observer)
+- Liaison dynamique: MOC (système méta objets) de lier un signal a une fonction sans besoin de connaitre le signal
+- utile : interruption et changements d'état 
+
+
+override :
+au compilateur , redéfinir une fonction virtuelle de la classe parente 
+
+QAbstractTableModel -> QTableView :
+
+InstanceModel : 
+rowCount -> nb d'instance contenu dans la Cell
+columnCount -> 2 colonnes (Name et Master)
+data -> index pour choisir la colonne, 
+    renvoie le contenu d'une cellule 
+headerData -> 0 -> "Instance" , 1 -> "MasterCell"
+
+CellsModel : 
+rowCount : nb Cell Dans la RAM
+columnCount : attribut 
+headerData : donner un titre aux colonnes ou aux lignes
+    - section = index 
+    ---> if section == 0 , il renvoie le nom de la cellule 
+    ---> QVariant = une boite vide
+    Role : type d'information Qt veut afficher : 
+    ---> Qt::DisplayRole : texte 
+    ---> Qt::ForegroundRole : couleur texte 
+    ---> Qt::FontRole : police (gras, italique)
+
+data : 
+    role :  type d'information 
+    
+
+
+Je viens de créer la classe CellsModel : pour contenir les informations des Cells
+je dois créer CellsLib, CellsLib a pour but d'afficher les cellules sur l'interface ? 
+
+role de CellsLib : Héberger la vue , Lier le modèle , Gérer l'interaction 
+
+
+MAINTENANT  on code pour CellViewer : la vue d'un cell ? ses instances terminaux etc ? 
+
+CellVIewer : fenêtre principale de ton application , contient CellWidget
+
+mon linux n'arrive pas a trouver qt4 , pourquoi ? 
+    elle date de plus de 10 ans 
+    distributions modernes (Ubuntu 22.04 ou 24.04) ont supprimé Qt4 de leurs serveurs officiels
+
+
+
+
+
+
+
+
+OK, seul quand tu ouvres Open , tu modifiais le Cell 
