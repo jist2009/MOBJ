@@ -22,5 +22,5 @@ To compile this project, the following dependencies are required:
 
 ## Author 
 
-**JI Stéphane**
+**JI Stéphane** \
 Master 1 SESI student - Sorbonne University
