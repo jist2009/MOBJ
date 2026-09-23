@@ -19,3 +19,8 @@ To compile this project, the following dependencies are required:
 - CMake
 - Qt 4 
 - libxml2 
+
+## Author 
+
+**JI Stéphane**
+Master 1 SESI student - Sorbonne University
